@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background-image: linear-gradient(to bottom right, #AF68EA , #6462E7);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: fit-content;
+    width: 800px;
+    height: 27rem;
+    font-size: 20px;
+    margin: 2rem 2rem 2rem 4rem;
+    border-radius: 20px;
+    box-shadow: 1px 15px 25px #3e3c8d;
+}
+
+.img-wrapper{
+    position: relative;
+    flex-wrap: wrap;
+    width: 65rem;
+    height: 27rem;
+    overflow: hidden;
+}
+
+.pattern-size{
+    position: absolute;
+    width: 45rem;
+    left: -119%;
+    top: -45%; 
+}
+
+.pattern-size-mobile{
+    display: none;
+}
+
+
+.img-size{
+    position: relative;
+    width: 24rem;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+    left: -28%;
+    top: 4%;
+}
+
+.floating-box-wrapper{
+    position: relative;
+    overflow: visible;
+    left: -26.3rem;
+    top: 1rem;
+}
+
+.img-mobile{
+    display: none;
+}
+
+.floating-box{
+    width: 11rem;
+}
+
+.text-wrapper{
+    position: relative;
+    left: -5%;
+    height: 24rem;
+    padding: 3rem 0rem 1rem 0rem;
+    width: 45em;
+
+}
+
+.title{
+    font-weight: 700;
+    font-size: larger;
+    font-family: Kumbh Sans;
+    margin: -0.5rem 0rem 0rem 0rem;
+}
+
+.sub-item{
+    font-size: small;
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    margin: 1.2rem 0rem 0rem 0rem;
+}
+
+.sub-item:hover{
+    font-size: small;
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    margin: 1.2rem 0rem 0rem 0rem;
+    color: orange;
+    cursor: pointer;
+}
+
+.sub-item-text{
+    font-size: small;
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    margin: 1.2rem 0rem 0rem 0rem;
+    color: grey;
+}
+
+.sub-item-image1{
+ margin: 0rem 0rem 0rem 2rem;
+}
+
+.sub-item-image2{
+    margin: 0rem 0rem 0rem 1rem;
+    transform: rotate(180deg);
+}
+
+.sub-item-image3{
+    margin: 0rem 0rem 0rem 6.1rem;
+}
+
+.sub-item-image4{
+    margin: 0rem 0rem 0rem 5.5rem;
+}
+
+.sub-item-image5{
+    margin: 0rem 0rem 0rem 3.25rem;
+}
+
+.line {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 1.2rem 0rem 0rem 0rem;
+}
+
+
+@media screen and (max-width: 910px){
+    .pattern-size{
+        display: none;
+    }
+
+    .img-size{
+        display: none;
+    }
+
+    .img-mobile{
+       display:flex;
+       height: 180px;
+    }
+
+    .floating-box-wrapper{
+        display: none;
+    }
+
+    .main-container{
+        display: flex;
+        justify-content: center;
+        height: 500px;
+        min-width: 330px;
+        align-items: center;
+        margin: 2rem;
+        height: 550px;
+    }
+
+    .text-wrapper{
+        width: 280px;
+        position: absolute;
+        left:auto;
+        margin: 4rem 0rem 0rem 0rem;
+    }
+
+    .img-wrapper{
+        top: -10.5rem;
+        width: 15rem;
+    }
+
+    .title{
+        text-align: center;
+        margin: 0rem 0rem 2.5rem 0rem;
+        font-weight: 700;
+        font-size: xx-large;
+    }
+
+    .sub-item:hover{
+        font-size: small;
+        font-family: Kumbh Sans;
+        font-weight: 400;
+        margin: 1.2rem 0rem 0rem 0rem;
+        color: orange;
+        cursor: pointer;
+    }
+
+    .pattern-size-mobile{
+        position: relative;
+        display: flex;
+        top: -17%;
+    }
+}
